@@ -15,5 +15,9 @@
     "less-middleware": "~2.2.1",
     "morgan": "~1.9.0",
     "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "request": "^2.88.0"
   }
 }
