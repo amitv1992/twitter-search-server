@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "jasmine",
+    "generate-report": "jasmine.conf.js",
+    "test-karma": "karma start --reporters html,dots"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -12,6 +15,9 @@
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
+    "jasmine-pretty-html-reporter": "^0.2.5",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine-spec-reporter": "^4.2.1",
     "less-middleware": "~2.2.1",
     "morgan": "~1.9.0",
     "twit": "^2.2.11"
